@@ -1,0 +1,32 @@
+# Aplikace NASA
+## Verze 1.0
+### Martin Jína
+#### 29. 11. 2021
+* Úvod
+  * Účel
+    * Program slouží k snadnému vyhledávání objektů v blízkosti Země.
+  * Konvence dokumentu
+    * Veškeré důležité informace budou zvýrazněny.
+  * Pro koho je dokument určený
+    * Dokument slouží k bližším informacím o funkčnosti programu.
+  * Odkazy na ostatní dokumenty
+    * [SRS](https://github.com/JinaMartin/Aplikace_NASA/blob/main/SRS.md)
+* Scénáře
+  * Všechny způsoby použití
+    * Program lze využít jak pro rekreační, tak pro reálné využití informací o asteroidech.
+  * Detaily, motivace, „živé“ příklady
+    * Program využívá data od NASA a umožňuje aktualizování dat. 
+  * Vymezení rozsahu
+    * V programu je možné využít pouze indormace poskytnuté v NASA API
+  * Na co se nebude klást důraz
+    * Důraz nebude kladen na vizuální stránku programu.
+* Celková hrubá architektura
+  * Pracocní tok
+    * Program bude pracovat rychle, a bude snadné ho upravit dle libosti.
+  * Detaily
+    * Uživatel se základními znalostmi programování bude mít veškerou možnost program rozšířit.
+  * Všechny možné toky programu a jejich projevy
+    * Uživatel bdue mít možnost libovolně seřadit asteroidy dle vzdálenosti/velikosti/rychlosti pohybu.
+* Otevřené otázky
+  * Části, na kterých se zatím nedosáhlo shody
+    * Možnost zobrazit si asteroid, bude-li to možné
